@@ -1,4 +1,4 @@
-export class Customer{
+export class CustomerGet{
     constructor(
         public customerId?: number,
         public customerName?: string,

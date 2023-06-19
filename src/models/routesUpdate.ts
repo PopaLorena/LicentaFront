@@ -1,4 +1,4 @@
-export class Routes{
+export class RoutesUpdate{
     constructor(
         public routeDetails?: string,
         public routePeriod?: Date,

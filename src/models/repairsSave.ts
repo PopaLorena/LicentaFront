@@ -1,4 +1,4 @@
-export class Repairs{
+export class RepairsSave{
     constructor(
         public date?: Date,
         public place?: string,

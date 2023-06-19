@@ -1,4 +1,4 @@
-export class Employee{
+export class EmployeeGet{
     constructor(
         public employeeId?: number,
         public userName?: string,

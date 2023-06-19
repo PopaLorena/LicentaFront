@@ -1,4 +1,4 @@
-export class Company{
+export class CompanyGet{
     constructor(
         public name?: string,
         public money?: string

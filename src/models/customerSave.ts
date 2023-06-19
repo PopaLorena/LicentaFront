@@ -1,4 +1,4 @@
-export class Customer{
+export class CustomerSave{
     constructor(
         public customerName?: string,
         public customerRouteId?: number,

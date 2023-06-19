@@ -1,4 +1,4 @@
-export class Cars{
+export class CarsGet{
     constructor(
         public carId?: number,
         public manufacturingDate?: Date,

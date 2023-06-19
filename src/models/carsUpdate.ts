@@ -1,4 +1,4 @@
-export class Cars{
+export class CarsUpdate{
     constructor(
         public kmNumber?: number,
     ){}

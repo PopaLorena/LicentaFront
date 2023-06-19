@@ -1,4 +1,4 @@
-export class Cars{
+export class CarsSave{
     constructor(
         public manufacturingDate?: Date,
         public carType?: string,

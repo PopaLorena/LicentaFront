@@ -1,4 +1,4 @@
-export class Employee{
+export class EmployeeSave{
     constructor(
         public userName?: string,
         public password?: string,

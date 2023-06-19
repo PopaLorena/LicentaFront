@@ -1,4 +1,4 @@
-export class Repairs{
+export class RepairsUpdate{
     constructor(
         public problem?: string,
         public repairDuration?: number,

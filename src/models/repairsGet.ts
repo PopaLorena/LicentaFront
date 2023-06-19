@@ -1,4 +1,4 @@
-export class Repairs{
+export class RepairsGet{
     constructor(
         public repairsId?: number,
         public date?: Date,

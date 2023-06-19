@@ -1,3 +1,5 @@
+import { HttpClient } from '@angular/common/http';
+import { Company } from 'src/models/companyGet';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +7,7 @@ import { Injectable } from '@angular/core';
 })
 export class CompanyService {
 
-  constructor() { }
+  token = localStorage.getItem("jwt");
+  header = {Authorization: 'Bearer ${this.token}'};
+  constructor(private httpClient: HttpClient) { }
 }
